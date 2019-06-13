@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import java.awt.Dimension;
+=======
+>>>>>>> 016fd96d06b16e7908fe37c3ef14d8bcb7cd710f
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 import javax.swing.JPanel;
+<<<<<<< HEAD
 import javax.xml.ws.soap.Addressing;
 
 public class GamePanel extends JPanel implements Runnable, KeyListener {
@@ -29,6 +33,11 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	private void setFPS(int fps) {
 		TargetTime = 1000/fps;
 	}
+=======
+
+public class GamePanel extends JPanel implements Runnable, KeyListener {
+
+>>>>>>> 016fd96d06b16e7908fe37c3ef14d8bcb7cd710f
 	@Override
 	public void keyPressed(KeyEvent arg0) {
 		// TODO Auto-generated method stub
@@ -50,6 +59,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		if (running) return;
 		init();
 		long startTime;
@@ -62,6 +72,9 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	}
 	private void init() {
 		setFPS(10);
+=======
+
+>>>>>>> 016fd96d06b16e7908fe37c3ef14d8bcb7cd710f
 	}
 
 }

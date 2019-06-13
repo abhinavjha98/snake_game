@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.awt.Dimension;
 
 import javax.swing.JFrame;
@@ -13,4 +14,9 @@ public class MainClass {
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
+=======
+
+public class MainClass {
+
+>>>>>>> 016fd96d06b16e7908fe37c3ef14d8bcb7cd710f
 }
